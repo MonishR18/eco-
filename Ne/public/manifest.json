@@ -1,0 +1,9 @@
+{
+  "short_name": "Ecovision",
+  "name": "Ecovision PWA",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Ecovision Progressive Web App",
+  "icons": []
+}
