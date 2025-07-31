@@ -1,0 +1,109 @@
+{
+  "rewards": [
+    {
+      "id": 1,
+      "name": "Eco Warrior",
+      "description": "Complete your first waste sorting",
+      "credits": 10,
+      "icon": "🌱",
+      "unlocked": false
+    },
+    {
+      "id": 2,
+      "name": "Recycling Master",
+      "description": "Sort 10 items correctly",
+      "credits": 25,
+      "icon": "♻️",
+      "unlocked": false
+    },
+    {
+      "id": 3,
+      "name": "Compost Champion",
+      "description": "Sort 5 organic items",
+      "credits": 15,
+      "icon": "🌿",
+      "unlocked": false
+    },
+    {
+      "id": 4,
+      "name": "E-Waste Hero",
+      "description": "Properly dispose of 3 e-waste items",
+      "credits": 30,
+      "icon": "📱",
+      "unlocked": false
+    },
+    {
+      "id": 5,
+      "name": "Plastic Fighter",
+      "description": "Sort 15 plastic items",
+      "credits": 20,
+      "icon": "🔄",
+      "unlocked": false
+    },
+    {
+      "id": 6,
+      "name": "Weekly Champion",
+      "description": "Use the app for 7 consecutive days",
+      "credits": 50,
+      "icon": "🏆",
+      "unlocked": false
+    },
+    {
+      "id": 7,
+      "name": "Knowledge Seeker",
+      "description": "Read 10 waste management tips",
+      "credits": 15,
+      "icon": "📚",
+      "unlocked": false
+    },
+    {
+      "id": 8,
+      "name": "Community Helper",
+      "description": "Complete 5 social tasks",
+      "credits": 40,
+      "icon": "🤝",
+      "unlocked": false
+    }
+  ],
+  "badges": [
+    {
+      "id": 1,
+      "name": "Beginner",
+      "description": "Just getting started",
+      "icon": "🌱",
+      "requirement": "First sort",
+      "color": "#22c55e"
+    },
+    {
+      "id": 2,
+      "name": "Intermediate",
+      "description": "Making progress",
+      "icon": "♻️",
+      "requirement": "10 sorts",
+      "color": "#3b82f6"
+    },
+    {
+      "id": 3,
+      "name": "Advanced",
+      "description": "Waste sorting expert",
+      "icon": "🏆",
+      "requirement": "50 sorts",
+      "color": "#f59e0b"
+    },
+    {
+      "id": 4,
+      "name": "Master",
+      "description": "Environmental champion",
+      "icon": "👑",
+      "requirement": "100 sorts",
+      "color": "#8b5cf6"
+    }
+  ],
+  "creditRates": {
+    "correctSort": 5,
+    "tipRead": 2,
+    "dailyLogin": 3,
+    "socialTask": 8,
+    "perfectStreak": 10
+  }
+} 

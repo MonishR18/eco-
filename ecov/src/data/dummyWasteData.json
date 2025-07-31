@@ -1,0 +1,130 @@
+{
+  "wasteItems": [
+    {
+      "id": 1,
+      "name": "Plastic Water Bottle",
+      "category": "plastic",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+      "description": "Single-use plastic bottle",
+      "disposalTip": "Rinse and crush before recycling. Check if your local facility accepts this type of plastic.",
+      "ecoScore": 5,
+      "recyclable": true,
+      "sector": "household"
+    },
+    {
+      "id": 2,
+      "name": "Apple Core",
+      "category": "organic",
+      "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=400",
+      "description": "Food waste from apple",
+      "disposalTip": "Compost at home or use municipal composting. Great for creating nutrient-rich soil.",
+      "ecoScore": 10,
+      "recyclable": false,
+      "sector": "household"
+    },
+    {
+      "id": 3,
+      "name": "Old Smartphone",
+      "category": "e-waste",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400",
+      "description": "Electronic device waste",
+      "disposalTip": "Donate if working, or take to e-waste recycling center. Never throw in regular trash.",
+      "ecoScore": 8,
+      "recyclable": true,
+      "sector": "household"
+    },
+    {
+      "id": 4,
+      "name": "Cardboard Box",
+      "category": "paper",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+      "description": "Corrugated cardboard packaging",
+      "disposalTip": "Flatten and recycle. Remove any tape or labels if possible.",
+      "ecoScore": 7,
+      "recyclable": true,
+      "sector": "household"
+    },
+    {
+      "id": 5,
+      "name": "Glass Jar",
+      "category": "glass",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+      "description": "Glass container",
+      "disposalTip": "Rinse thoroughly and recycle. Glass is infinitely recyclable!",
+      "ecoScore": 9,
+      "recyclable": true,
+      "sector": "household"
+    },
+    {
+      "id": 6,
+      "name": "Aluminum Can",
+      "category": "metal",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+      "description": "Metal beverage container",
+      "disposalTip": "Rinse and crush to save space. Aluminum is highly valuable for recycling.",
+      "ecoScore": 8,
+      "recyclable": true,
+      "sector": "household"
+    },
+    {
+      "id": 7,
+      "name": "Used Coffee Grounds",
+      "category": "organic",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+      "description": "Coffee waste",
+      "disposalTip": "Excellent for composting. Can also be used as natural fertilizer for plants.",
+      "ecoScore": 10,
+      "recyclable": false,
+      "sector": "household"
+    },
+    {
+      "id": 8,
+      "name": "Plastic Bag",
+      "category": "plastic",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+      "description": "Single-use plastic bag",
+      "disposalTip": "Many stores accept plastic bags for recycling. Consider using reusable bags instead.",
+      "ecoScore": 3,
+      "recyclable": true,
+      "sector": "household"
+    }
+  ],
+  "categories": {
+    "plastic": {
+      "name": "Plastic",
+      "color": "#3b82f6",
+      "icon": "🔄",
+      "description": "Recyclable plastic materials"
+    },
+    "organic": {
+      "name": "Organic",
+      "color": "#22c55e",
+      "icon": "🌱",
+      "description": "Food waste and compostable materials"
+    },
+    "e-waste": {
+      "name": "E-Waste",
+      "color": "#f59e0b",
+      "icon": "📱",
+      "description": "Electronic devices and components"
+    },
+    "paper": {
+      "name": "Paper",
+      "color": "#8b5cf6",
+      "icon": "📄",
+      "description": "Paper and cardboard materials"
+    },
+    "glass": {
+      "name": "Glass",
+      "color": "#06b6d4",
+      "icon": "🥃",
+      "description": "Glass containers and materials"
+    },
+    "metal": {
+      "name": "Metal",
+      "color": "#64748b",
+      "icon": "🥫",
+      "description": "Metal cans and materials"
+    }
+  }
+} 
